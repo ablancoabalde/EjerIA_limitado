@@ -13,6 +13,6 @@ Muestra muest;
     }
     
     public void pedirDatos (String nom){
-     
+     muest.mostratNombre(nom);
     }
 }
