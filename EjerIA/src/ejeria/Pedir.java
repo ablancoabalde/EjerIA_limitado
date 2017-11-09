@@ -1,21 +1,23 @@
 
 package ejeria;
 
-import java.util.Scanner;
-
-
 public class Pedir {
     
-Scanner sc = new Scanner (System.in);
-
-public Pedir (){
+     private String nombre;
+     
     
-}
+    public Pedir() {
+        
+      
+    }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public void pedirNombre(String nomb){
+            nombre=nomb;
+    }
 
-public String pedirDatos (){
-    System.out.println("Hola compañero, ¿cómo te llamas?");
-    String nombre = sc.nextLine();
-    return nombre;
-}
 
 }

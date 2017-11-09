@@ -3,15 +3,14 @@ package ejeria;
 
 public class Muestra {
     
-    Pedir pedi = new Pedir();
+    private Pedir ped = new Pedir();
     
-   public Muestra (){
+    public Muestra(){
        
-   }
+    }
    
-   public String mostrarDatos (){
-    return pedi.pedirDatos();
-   }
-
     
+    public String devuelveNombre(Pedir ped){
+        return ped.getNombre();
+    }
 }

@@ -7,10 +7,12 @@ public class EjerIA {
 
     public static void main(String[] args) {
         
-    Muestra muest = new Muestra ();
-    
-        System.out.println("Encantada de conocerte, "+ muest.mostrarDatos()+ ". Va a ser un placer trabajar contigo.");
-        
+       Scanner entrada = new Scanner(System.in);
+        Muestra must = new Muestra();
+        Pedir ped = new Pedir();
+        System.out.println("¿Como te llamas?");
+        ped.pedirNombre(entrada.nextLine());
+        System.out.println("Encantado de conocerte " + must.devuelveNombre(ped));
+       
     }
-    
 }
