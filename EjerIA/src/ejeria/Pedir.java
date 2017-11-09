@@ -1,12 +1,10 @@
 
 package ejeria;
 
-import java.util.Scanner;
-
 
 public class Pedir {
     
-Muestra muest;
+Muestra muest = new Muestra();
     
     public Pedir (){
         
