@@ -7,9 +7,10 @@ public class Muestra {
         
     }
     
-    public void mostratNombre(String nom){
-        System.out.println("Hola " + nom + " soy una IA limitada");
-        
+    public String mostratNombre(String nom){
+        return "Hola " + nom + " soy una IA limitada";
     }
+    
+    
     
 }
