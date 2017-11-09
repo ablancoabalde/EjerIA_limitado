@@ -7,14 +7,9 @@ public class EjerIA {
 
     public static void main(String[] args) {
         
-      Scanner sc = new Scanner (System.in);
-      Pedir ped = new Pedir ();
-      Muestra must = new Muestra ();
-      
-        System.out.println("¿Cómo te llamas, querido compañero?");
-        String nom = sc.nextLine();
-        ped.pedirDatos(nom);
-        
+    Muestra muest = new Muestra ();
+    
+        System.out.println("Encantada de conocerte, "+ muest.mostrarDatos()+ ". Va a ser un placer trabajar contigo.");
         
     }
     
