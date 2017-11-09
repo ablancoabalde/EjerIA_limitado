@@ -6,11 +6,15 @@ public class Muestra {
     public Muestra(){
         
     }
+    private String nomb;
     
-    public String mostratNombre(String nom){
-        return "Hola " + nom + " soy una IA limitada";
+    public void recibeNombre(String nom){
+       nomb=nom;
     }
     
+    public String devuelNombre(){
+        return nomb;
+    }
     
     
 }

@@ -11,6 +11,6 @@ Muestra muest = new Muestra();
     }
     
     public void pedirDatos (String nom){
-     muest.mostratNombre(nom);
+     muest.recibeNombre(nom);
     }
 }

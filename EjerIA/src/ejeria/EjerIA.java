@@ -9,6 +9,7 @@ public class EjerIA {
         
       Scanner sc = new Scanner (System.in);
       Pedir ped = new Pedir ();
+      Muestra must = new Muestra ();
       
         System.out.println("¿Cómo te llamas, querido compañero?");
         String nom = sc.nextLine();
